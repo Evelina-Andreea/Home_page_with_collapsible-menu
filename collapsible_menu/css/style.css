@@ -1,0 +1,144 @@
+*{
+    margin:0;
+}
+html,body {
+    height:100%;
+}
+.container{
+    height:auto;margin:auto;
+}
+
+/*Header--Menu-Nav*/
+.header{
+    margin:2%;height: 20%;
+}
+ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+li{
+    float:left;
+    padding:5px;
+}
+li:last-child{
+    border-right:none;
+}
+li a{
+    display:block;
+    color:rgb(105,105,105);
+    text-decoration: none;
+}
+li a:hover{
+    color:rgb(65,105,225);
+    text-decoration: none;
+}
+
+/* Start----Content*/
+.content{
+    padding:20px;
+    height:auto;
+}
+.first-section{
+    background-color: #eee;
+}
+.para {
+    padding:5%;
+}
+.dashboard{
+    font-size: 18px;
+    color:rgb(65,105,225);
+    margin:1%;
+}
+
+/*Responsive -images*/
+div.gallery {
+    background-color:white;
+}
+
+div.gallery img {
+    width: 100%;
+    height:auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+div.p{
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+div.gallery .img1{
+    border-bottom: 5px solid  #00008b;
+}
+div.gallery .img2{
+    border-bottom: 5px solid #6495ed;
+}
+div.gallery .img3{
+    border-bottom: 5px solid #000000;
+}
+.responsive {
+    float: left;
+    width: 32.9999%;
+    padding:24px;
+}
+
+/*Section ----two*/
+.panel-default>.panel-heading{
+    background-color:white;
+    border:none;
+}
+.panel-default{
+    border:none;
+}
+.panel-title{
+    color:rgb(105,105,105);
+}
+.panel-default>.panel-heading a:hover{
+    border:none;
+}
+.panel-heading>.panel-title a:hover{
+    color:rgb(65,105,225);
+    text-decoration: none;
+}
+.panel-group .panel{
+    border-radius: none;
+}
+
+/* Start---Footer*/
+.footer{
+    border-top: 1px solid #A9A9A9;
+    margin-top: 1%;
+    width: 100%;
+}
+
+
+/*---Media----*/
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .header{
+        width: 100%;
+    }
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
